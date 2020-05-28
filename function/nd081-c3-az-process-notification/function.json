@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "message",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "nd081-c3-notification-queue",
+      "connection": "nd081sbs_SERVICEBUS"
+    }
+  ]
+}
